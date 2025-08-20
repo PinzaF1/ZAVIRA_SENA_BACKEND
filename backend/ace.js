@@ -20,7 +20,7 @@
  * Register hook to process TypeScript files using ts-node
  */
 
-require('ts-node-maintained/register')
+await import('ts-node-maintained/register')
 
 
 /**
